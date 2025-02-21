@@ -4,8 +4,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon backend/index.js",
-    "start": "node backend/index.js",
+    "server": "nodemon index.js",
+    "start": "node index.js",
     "build": "npm install && npm install --prefix vite-project && npm run build --prefix vite-project"
   },
   "keywords": [],
