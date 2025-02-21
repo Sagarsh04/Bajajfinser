@@ -1,0 +1,20 @@
+{
+  "name": "placement",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+		"server": "nodemon /index.js",
+		"start": "node /index.js",
+		"build": "npm install && npm install --prefix vite-project && npm run build --prefix vite-project"
+	},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7"
+  }
+}
